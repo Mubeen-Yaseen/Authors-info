@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    font-family: "Freeman", sans-serif;
+    color: aliceblue;
+    margin-top: .5rem;   
+}
+
+body{
+    background: #090926;
+    text-align: center;
+}
+
+
+#Author-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.author-cart {
+    width: 14rem;
+    height: 20rem;
+    background-color: aliceblue;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#authorname {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Radio Canada Big", sans-serif;
+}
+
+#author-img {
+
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+#color-line {
+    height: 5px;
+    background-color: purple;
+    margin-top: 15px;
+}
+
+#author-bio {
+    padding: 5px 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+#author-link {
+
+    text-align: center;
+}
+#loadbtn{
+    padding: 5px 90px;
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: #f3930db1;
+    cursor: pointer;
+    border: 3px solid #f3930db1;
+}
